@@ -209,17 +209,41 @@ The platform demonstrates stable user acquisition but critical retention issues,
 
 ![Driver Performance Distribution](https://via.placeholder.com/600x400?text=Driver+Performance+Chart)
 
-## Recommendations
+---
 
-1. **Address Financial Liquidity Risk**: Implement a liquidity buffer to cover one month of net outflow and introduce withdrawal limits or processing delays to manage large, sudden outflows. Review commission structure to better balance company profitability with driver earnings.
+## **Recommendations**
 
-2. **Revamp Loyalty Program**: Shift from points redemption to retention-focused benefits. Introduce tiered rewards, exclusive benefits for active users, and points for actions that correlate with long-term engagement.
+### 1. **Customer Support Efficiency**
 
-3. **Reduce Cancellation Rates**: Optimize dispatch algorithms to reduce wait times below 2.4-minute threshold and implement incentives for rider commitment and penalties for repeated cancellations.
+* Reduce the **average resolution time** (currently 11–12 hours) to align with industry best practices.
+* Prioritize **serious issue categories** (e.g., safety concerns, disputes) with a fast-track resolution process.
+* Work on resolving **open cases** quickly to prevent backlog.
+* Focus on **escalated cases** caused by long waiting times (⅓ of support data).
 
-4. **Improve Support Efficiency**: Implement AI solutions for ticket triage and categorization standardization. Prioritize critical issues like safety concerns for immediate resolution with a target of reducing average resolution time to under 4 hours.
+---
 
-5. **Enhance Driver Compliance**: Implement system changes to require complete documentation during onboarding process. Provide training for drivers with below-average ratings, particularly in premium service categories.
+### 2. **AI & Automation**
+
+* Implement **AI chatbots** to handle simple queries and reduce initial response time.
+* Use **automated triage** to assign cases to the right team/agent based on issue type.
+* Apply **predictive analytics** to anticipate recurring issues and proactively resolve them.
+
+---
+
+### 3. **User & Driver Management**
+
+* Reach out to **top-complaint users** (User IDs: 14066, 11929, 12537) to address recurring issues and improve satisfaction.
+* Investigate **top-complaint drivers** (Driver IDs: 7360, 4229, 6322, 7570, 7636) for potential retraining, monitoring, or disciplinary action.
+* Track **user/driver issue history** to identify repeat offenders or chronic dissatisfaction.
+
+---
+
+### 4. **Future Data Integration**
+
+* **Merge customer support data with trip data** to link complaints to specific rides and measure impact on operations.
+* **Merge with driver data** to analyze patterns of complaints tied to drivers, especially for safety and disputes.
+* **Merge with user data** to profile customers with frequent complaints and design retention strategies.
+
 
 ## Future Work
 
