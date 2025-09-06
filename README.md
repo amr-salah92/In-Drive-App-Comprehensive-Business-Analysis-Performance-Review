@@ -259,8 +259,6 @@ The platform demonstrates stable user acquisition but critical retention issues,
 
 4. **Payment System Technical Audit**: Comprehensive review of wallet and Apple Pay systems to address high issue rates (28.48% and 19.21% respectively) affecting user experience.
 
-5. **Cohort Retention Analysis**: Track retention rates of users acquired in different months to identify specific churn points and develop targeted interventions for at-risk cohorts.
-
 ## Technical Details
 
 **Programs Used**:
