@@ -157,7 +157,8 @@ The company's database consists of 8 primary tables with approximately 250,000 t
 
 The platform demonstrates stable user acquisition but critical retention issues, with 67% of initiated trips failing to complete. Financial analysis reveals a concerning liquidity risk with 94,593 SAR net outflow from driver wallets, concentrated among a small group of drivers. Operational efficiency is hampered by long support resolution times (11-12 hours) and 33% case escalation rates. While geographic profitability is consistent (~40% margins across cities), payment system issues particularly affect wallet transactions (28.48% issue rate). Immediate actions are needed to address data integrity issues, particularly the September 2025 financial anomaly and driver documentation gaps.
 
-![Monthly Trip Completion vs Cancellation Rates](https://via.placeholder.com/600x400?text=Trip+Completion+Trend+Chart)
+![Screenshot_6-9-2025_203035_chat deepseek com](https://github.com/user-attachments/assets/b9847cea-c722-46d2-93fb-9e3a90cfcdde)
+
 
 ## Insights Deep Dive
 
@@ -171,7 +172,8 @@ The platform demonstrates stable user acquisition but critical retention issues,
 
 **Main insight 4**: Commission trends show seasonal patterns with October peaks (+13.73% in 2023, +10.94% in 2024) followed by November declines. This pattern suggests opportunity for targeted campaigns during growth periods and defensive strategies during slowdowns.
 
-![Monthly Commission Trends with Anomaly Highlight](https://via.placeholder.com/600x400?text=Commission+Trends+Chart)
+![Screenshot_6-9-2025_193839_chat deepseek com](https://github.com/user-attachments/assets/588fec3b-bee3-478b-8660-b5d0f8d9c230)
+
 
 ### Category 2: User Growth & Loyalty
 
@@ -183,7 +185,8 @@ The platform demonstrates stable user acquisition but critical retention issues,
 
 **Main insight 4**: Demographic trends show male users have higher ratings but lower loyalty points, Pakistani users have the highest ratings, and cash-paying users have high ratings but low loyalty points—indicating segmentation opportunities.
 
-![User Acquisition vs Churn Trends](https://via.placeholder.com/600x400?text=User+Acquisition+Chart)
+![Screenshot_6-9-2025_193818_chat deepseek com](https://github.com/user-attachments/assets/eb1bd1e9-21e6-4f2b-b353-52070d3bd862)
+
 
 ### Category 3: Operational Efficiency
 
@@ -195,7 +198,7 @@ The platform demonstrates stable user acquisition but critical retention issues,
 
 **Main insight 4**: Promotions show exceptionally high ROI (~800%) but low adoption (4.9% of trips), suggesting significant opportunity for scaled promotional campaigns targeted at underperforming cities or user segments.
 
-![City Performance and Trip Distribution](https://via.placeholder.com/600x400?text=Geographic+Performance+Map)
+
 
 ### Category 4: Driver Ecosystem
 
@@ -207,7 +210,8 @@ The platform demonstrates stable user acquisition but critical retention issues,
 
 **Main insight 4**: Top-performing drivers (IDs 4971, 8591, 7317, 6101, 3418) have no complaints and high ratings, providing opportunity for best practice identification and replication across the driver community.
 
-![Driver Performance Distribution](https://via.placeholder.com/600x400?text=Driver+Performance+Chart)
+
+![Screenshot_6-9-2025_193747_chat deepseek com](https://github.com/user-attachments/assets/073b7714-33c5-42c6-a6d7-cf5d6e3d1f06)
 
 ---
 
@@ -260,25 +264,14 @@ The platform demonstrates stable user acquisition but critical retention issues,
 ## Technical Details
 
 **Programs Used**:
-- PostgreSQL for data extraction and initial aggregation due to its handling of relational data and complex queries
+
 - Python (Pandas, NumPy) for data transformation and cleaning, leveraging their robust data manipulation capabilities
-- Tableau for visualization and dashboard creation thanks to its interactive capabilities and user-friendly interface
-- Excel for preliminary data inspection and stakeholder reporting because of its widespread accessibility
+- Power bi for visualization and dashboard creation thanks to its interactive capabilities and user-friendly interface
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](https://example.com/sql-queries).
 
-Targeted SQL queries regarding various business questions can be found [here](https://example.com/business-queries).
+The Python queries used to inspect and clean the data for this analysis can be found [here](https://example.com/sql-queries).
 
-An interactive Tableau dashboard used to report and explore trends can be found [here](https://example.com/tableau-dashboard).
 
-## Assumptions and Caveats
+An interactive Power bi dashboard used to report and explore trends can be found [here](https://example.com/tableau-dashboard).
 
-1. **September 2025 Anomaly**: The -903K SAR wallet transaction was treated as a data error for trend analysis purposes, but this assumption requires validation through financial system audit.
 
-2. **Inactive User Definition**: Users were classified as inactive based on lack of trip activity for 90 days, which may not account for seasonal usage patterns.
-
-3. **City Profitability Calculation**: Margin calculations assumed consistent operational costs across cities, which may not reflect actual geographic cost variations.
-
-4. **Promotion ROI Calculation**: ROI was calculated based on immediate trip revenue without considering customer lifetime value, potentially overstating effectiveness.
-
-5. **Driver Rating Interpretation**: Rating analysis assumed consistent rating behavior across user segments, though cultural factors may affect rating tendencies.
