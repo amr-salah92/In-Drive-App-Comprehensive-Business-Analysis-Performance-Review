@@ -19,7 +19,7 @@
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
 ## Project Overview
-**Company**: Middle East Ride-Hailing Platform  
+**Company**: In drive App  
 **Analysis**: Comprehensive Performance Review (September 2023 - September 2025)  
 **Focus Areas**: Financial Performance, User Growth, Operational Efficiency, and Driver Ecosystem
 
