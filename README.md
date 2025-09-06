@@ -269,9 +269,9 @@ The platform demonstrates stable user acquisition but critical retention issues,
 - Power bi for visualization and dashboard creation thanks to its interactive capabilities and user-friendly interface
 
 
-The Python queries used to inspect and clean the data for this analysis can be found [here](https://example.com/sql-queries).
+The Python queries used to inspect and clean the data for this analysis can be found [here]([https://example.com/sql-queries](https://github.com/amr-salah92/In-Drive-App-Comprehensive-Business-Analysis-Performance-Review/blob/main/In-drive.ipynb)).
 
 
-An interactive Power bi dashboard used to report and explore trends can be found [here](https://example.com/tableau-dashboard).
+An interactive Power bi dashboard used to report and explore trends can be found [here]([https://example.com/tableau-dashboard](https://github.com/amr-salah92/In-Drive-App-Comprehensive-Business-Analysis-Performance-Review/blob/main/driving%20app.pbix)).
 
 
